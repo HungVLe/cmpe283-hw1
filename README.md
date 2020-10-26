@@ -4,13 +4,11 @@ CMPE 283 – Homework #1	Hung Le
 
 Step 1: Use VMWare to create a Guest Ubuntu OS
 
-Step 2: After created an Ubuntu VM, install virt-manager and create an inner VM
+Step 2: After created an Ubuntu VM, run the VM and open the terminal inside the VM
 
 Step 3: Run commands ‘cat /proc/cpuinfo’ to check flags ‘vmx’
 
-Step 4: Install git
-
-Step 5: In the folder where the cmpe28301.c file located, run the following commands:
+Step 4: In the folder where the cmpe28301.c file located, run the following commands:
 make
 sudo insmod ./cmpe283-1.ko
 sudo rmmod cmpe283-1
@@ -104,4 +102,3 @@ Result:
 [11528.044897]    Load PKRS: Can set=No, Can clear=Yes
 [11531.866741] CMPE 283 Assignment 1 Module Exits
 
-Step 6: commit and push code to git
